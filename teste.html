@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        #pai {
+            background-color: gray;
+
+        }
+
+        #filha1 {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            margin: 10px;
+            position: absolute; 
+
+            top: 50px;
+            left: 50px;
+        }
+
+        #filha2 {
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            margin: 10px;
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        pai
+        <div id="filha1">
+            filha1
+        </div>
+        <div id="filha2">
+            filha2
+        </div>
+    </div>
+</body>
+</html>
